@@ -1,0 +1,49 @@
+h1,h2,h3,h4,h5,a,body {
+    margin: 0px;
+}
+
+.container_email {
+    background-color: rgb(24, 84, 153);
+    color: white ;
+    display: flex;
+    justify-content: center;
+}
+
+.container_email_content {
+    max-width: 1200px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px 10px 20px 10px;
+}
+
+input[type="email"], input[type="text"] {
+    background-color: rgb(24, 84, 153);
+    padding: 5px 15px 5px 15px;
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    margin-right: 5px;
+    margin-top: 5px;
+    display: flex;
+    flex: 1;
+}
+
+input[type="submit"] {
+    border-radius: 5px;
+    background-color: rgb(24, 84, 153);
+    color: white;
+    border: 1px solid white;
+}
+
+input[placeholder]::placeholder {
+    color: white;
+    -webkit-input-placeholder:white ;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
